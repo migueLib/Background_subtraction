@@ -27,7 +27,8 @@ Marker_corrected = Marker_raw − Background × (Exposure_Marker / Exposure_Back
 
 ## Installation
 
-Backsub can be installed directly from PyPI, or run in a preconfigured Docker container. For development or container builds, a fixed-version Conda environment is provided.
+Backsub can be installed directly from PyPI, or run in a preconfigured Docker container. For development or container builds, a fixed-version Conda environment is provided.  
+Backsub requires Python >=3.11
 
 ### Option 1: Install from PyPI
 
