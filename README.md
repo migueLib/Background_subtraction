@@ -1,4 +1,8 @@
 # Backsub - pixel-by-pixel channel subtraction tool for multiplexed immunofluorescence data
+[![PyPI](https://img.shields.io/pypi/v/backsub?style=flat-square)](https://pypi.org/project/backsub/)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/backsub?style=flat-square)](https://pypi.org/project/backsub/)
+[![PyPI - License](https://img.shields.io/pypi/l/backsub?style=flat-square)](https://pypi.org/project/backsub/)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/backsub?style=flat-square)](https://pypi.org/project/backsub/)
 
 Backsub performs pixel-by-pixel background subtraction between marker and background channels scaled by their respective exposure times. The outputs are saved as pyramidal OME-TIFF files. It was originally developed for data produced by the Lunaphore COMET platform and is fully compatible with the [MCMICRO](https://mcmicro.org) pipeline.
 
