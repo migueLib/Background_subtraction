@@ -4,10 +4,10 @@
 name: Test Python Build
 
 on:
-  push:
-    branches: ["main"]
   pull_request:
-    branches: ["published"]
+    branches: ["main"]
+  release:
+    types: [published]
 
 jobs:
   build:
