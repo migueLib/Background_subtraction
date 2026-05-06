@@ -16,7 +16,7 @@ classifiers = [
     "Programming Language :: Python :: 3.14",
     "Operating System :: POSIX :: Linux",
     "Operating System :: MacOS",
-    "Operating System :: Windows",
+    "Operating System :: Microsoft :: Windows",
     "Intended Audience :: Science/Research",
     "License :: OSI Approved :: MIT License"
 ]
