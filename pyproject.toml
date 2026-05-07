@@ -21,14 +21,16 @@ classifiers = [
     "License :: OSI Approved :: MIT License"
 ]
 dependencies = [
-    "pandas",
-    "tifffile",
-    "ome_types",
-    "numpy",
-    "loguru",
     "dask",
     "dask-image",
+    "imagecodecs",
+    "loguru",
+    "numpy",
+    "ome_types",
+    "pandas",
+    "psutil",
     "scikit-image",
+    "tifffile",
     "zarr>=3"
 ]
 [project.urls]
