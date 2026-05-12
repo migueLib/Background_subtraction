@@ -85,7 +85,7 @@ def get_args(_version):
         "-sr",
         "--save-ram",
         action="store_true",
-        help="""RAM usage is cut in half when using this flag.
+        help="""RAM usage is reduced when using this flag.
                 Notice that the dimensions of the reduced resolution levels (sub-levels) of
                 the output pyramidal image will slightly differ whether or not using this argument. [Default: False]""",
     )
