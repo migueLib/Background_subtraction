@@ -23,7 +23,7 @@ def get_args(_version):
 
     inputs.add_argument(
         "-r",  ## deprecation warning can be added later
-        "--root",  ## deprecation warning can be added laters
+        "--root", 
         "-in",
         "--input",
         dest="input",
